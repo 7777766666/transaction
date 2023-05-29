@@ -1,0 +1,60 @@
+2023-05-26T18:10:17.789+03:00  INFO 12276 --- [main] c.e.transaction.TransactionApplication   : Starting TransactionApplication using Java 19.0.1 with PID 12276 (E:\Idea\transaction\build\classes\java\main started by 777 in E:\Idea\transaction)
+2023-05-26T18:10:17.793+03:00  INFO 12276 --- [main] c.e.transaction.TransactionApplication   : The following 1 profile is active: "qa"
+2023-05-26T18:10:19.164+03:00  INFO 12276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-26T18:10:19.205+03:00  INFO 12276 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 0 JPA repository interfaces.
+2023-05-26T18:10:19.874+03:00  INFO 12276 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-26T18:10:20.258+03:00  INFO 12276 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@14ef2482
+2023-05-26T18:10:20.262+03:00  INFO 12276 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-26T18:10:20.379+03:00  INFO 12276 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-26T18:10:20.515+03:00  INFO 12276 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-26T18:10:20.519+03:00  INFO 12276 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-05-26T18:10:21.011+03:00  INFO 12276 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-05-26T18:10:21.266+03:00  INFO 12276 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-26T18:10:21.397+03:00  INFO 12276 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@1e54a6b1
+2023-05-26T18:10:21.588+03:00  INFO 12276 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-05-26T18:10:21.957+03:00  INFO 12276 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-26T18:10:21.972+03:00  INFO 12276 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-26T18:10:22.221+03:00  INFO 12276 --- [main] c.e.transaction.TransactionApplication   : Started TransactionApplication in 5.409 seconds (process running for 6.43)
+2023-05-26T18:10:22.232+03:00  INFO 12276 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-26T18:10:22.236+03:00  INFO 12276 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-26T18:10:22.245+03:00  INFO 12276 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-26T18:16:51.846+03:00  INFO 23420 --- [main] c.e.transaction.TransactionApplication   : Starting TransactionApplication using Java 19.0.1 with PID 23420 (E:\Idea\transaction\build\classes\java\main started by 777 in E:\Idea\transaction)
+2023-05-26T18:16:51.850+03:00  INFO 23420 --- [main] c.e.transaction.TransactionApplication   : The following 1 profile is active: "qa"
+2023-05-26T18:16:52.636+03:00  INFO 23420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-26T18:16:52.668+03:00  INFO 23420 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2023-05-26T18:16:53.202+03:00  INFO 23420 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-26T18:16:53.527+03:00  INFO 23420 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@37e0292a
+2023-05-26T18:16:53.529+03:00  INFO 23420 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-26T18:16:53.622+03:00  INFO 23420 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-26T18:16:53.750+03:00  INFO 23420 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-26T18:16:53.756+03:00  INFO 23420 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-05-26T18:16:54.176+03:00  INFO 23420 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-05-26T18:16:54.421+03:00  INFO 23420 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-26T18:16:54.557+03:00  INFO 23420 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@566e142
+2023-05-26T18:16:54.717+03:00  INFO 23420 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-05-26T18:16:55.100+03:00  INFO 23420 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-26T18:16:55.111+03:00  INFO 23420 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-26T18:16:55.345+03:00  INFO 23420 --- [main] c.e.transaction.TransactionApplication   : Started TransactionApplication in 4.359 seconds (process running for 5.627)
+2023-05-26T18:16:55.357+03:00  INFO 23420 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-26T18:16:55.360+03:00  INFO 23420 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-26T18:16:55.370+03:00  INFO 23420 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-26T18:21:03.731+03:00  INFO 16248 --- [main] c.e.transaction.TransactionApplication   : Starting TransactionApplication using Java 19.0.1 with PID 16248 (E:\Idea\transaction\build\classes\java\main started by 777 in E:\Idea\transaction)
+2023-05-26T18:21:03.735+03:00  INFO 16248 --- [main] c.e.transaction.TransactionApplication   : The following 1 profile is active: "qa"
+2023-05-26T18:21:04.545+03:00  INFO 16248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-26T18:21:04.580+03:00  INFO 16248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 JPA repository interfaces.
+2023-05-26T18:21:05.199+03:00  INFO 16248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-26T18:21:05.608+03:00  INFO 16248 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26844abb
+2023-05-26T18:21:05.611+03:00  INFO 16248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-26T18:21:05.711+03:00  INFO 16248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-26T18:21:06.021+03:00  INFO 16248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-26T18:21:06.025+03:00  INFO 16248 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-05-26T18:21:06.641+03:00  INFO 16248 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-05-26T18:21:06.912+03:00  INFO 16248 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-26T18:21:07.057+03:00  INFO 16248 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@3b0c3951
+2023-05-26T18:21:07.313+03:00  INFO 16248 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-05-26T18:21:07.861+03:00  INFO 16248 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-26T18:21:07.874+03:00  INFO 16248 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-26T18:21:08.195+03:00  INFO 16248 --- [main] c.e.transaction.TransactionApplication   : Started TransactionApplication in 5.306 seconds (process running for 6.439)
+2023-05-26T18:21:08.219+03:00  INFO 16248 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-26T18:21:08.224+03:00  INFO 16248 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-26T18:21:08.240+03:00  INFO 16248 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

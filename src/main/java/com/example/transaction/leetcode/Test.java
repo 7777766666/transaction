@@ -16,6 +16,7 @@ public class Test {
         test.mem(objectsList);
 
 
+
     }
 
     public void lol(List<? extends Number> list){

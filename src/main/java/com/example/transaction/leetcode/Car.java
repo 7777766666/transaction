@@ -12,6 +12,8 @@ import lombok.ToString;
 import org.hibernate.annotations.Cascade;
 import org.hibernate.annotations.CascadeType;
 
+import java.util.Objects;
+
 @Getter
 @Setter
 @ToString
@@ -29,5 +31,15 @@ public class Car {
     private String model;
     private Integer Speed;
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Car car)) return false;
+        return getId() == car.getId() && Objects.equals(getModel(), car.getModel()) && Objects.equals(getSpeed(), car.getSpeed());
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId(), getModel(), getSpeed());
+    }
 }

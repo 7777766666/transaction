@@ -56,7 +56,8 @@ int y = 88;
 
         System.out.println(sss +" sss");
 
-        
+        Gop <String, String, Integer> gopStop = (a765, b936) -> Integer.parseInt(a765) * Integer.parseInt(b936);
+        System.err.println(gopStop.ddd("12", "8") + " ddd");
     }
     @FunctionalInterface
     interface Gop<T, T1, R>{

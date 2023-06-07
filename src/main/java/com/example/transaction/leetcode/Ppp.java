@@ -95,8 +95,9 @@ int y = 88;
     @FunctionalInterface
     interface Fun<T1, T2, R>{
         String sss(Integer a, Integer b);
+        
     }
-
+@FunctionalInterface
     interface LolAndMem{
         int fff(int x, int y );
 
